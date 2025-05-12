@@ -45,16 +45,32 @@ function carregarFilmes() {
             const filmeCard = document.createElement('div');
             filmeCard.className = 'filme-card';
             
-            filmeCard.innerHTML = `
-                <a href="detalhes.html?id=${filme.id}">
-                    <img src="${filme.imagem}" alt="${filme.titulo}">
-                    <h3>${filme.titulo}</h3>
-                    <p>${filme.descricaoCurta}</p>
-                    <p><strong>Diretor:</strong> ${filme.autor}</p>
-                    <p><strong>Ano:</strong> ${filme.ano}</p>
-                </a>
-            `;
+            const link = document.createElement('a');
+            link.href = `detalhes.html?id=${filme.id}`;
             
+            const img = document.createElement('img');
+            img.src = filme.imagem;
+            img.alt = filme.titulo;
+            
+            const titulo = document.createElement('h3');
+            titulo.textContent = filme.titulo;
+            
+            const descCurta = document.createElement('p');
+            descCurta.textContent = filme.descricaoCurta;
+            
+            const diretor = document.createElement('p');
+            diretor.innerHTML = `<strong>Diretor:</strong> ${filme.autor}`;
+            
+            const ano = document.createElement('p');
+            ano.innerHTML = `<strong>Ano:</strong> ${filme.ano}`;
+            
+            link.appendChild(img);
+            link.appendChild(titulo);
+            link.appendChild(descCurta);
+            link.appendChild(diretor);
+            link.appendChild(ano);
+            
+            filmeCard.appendChild(link);
             filmesContainer.appendChild(filmeCard);
         });
     }
