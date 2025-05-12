@@ -60,3 +60,25 @@ function carregarFilmes() {
     }
 }
 
+function carregarDetalhesFilme() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const filmeId = parseInt(urlParams.get('id'));
+    
+    const filme = filmes.find(f => f.id === filmeId);
+    const detalhesContainer = document.getElementById('detalhes-filme');
+    
+    if (filme && detalhesContainer) {
+        detalhesContainer.innerHTML = `
+            <h1>${filme.titulo}</h1>
+            <img src="${filme.imagem}" alt="${filme.titulo}" class="detalhes-imagem">
+            <p><strong>Diretor:</strong> ${filme.autor}</p>
+            <p><strong>Ano:</strong> ${filme.ano}</p>
+            <div class="descricao-longa">
+                <p>${filme.descricaoLonga}</p>
+            </div>
+            <a href="index.html" class="voltar-link">Voltar para a lista de filmes</a>
+        `;
+    } else if (detalhesContainer) {
+        detalhesContainer.innerHTML = '<p>Filme não encontrado.</p>';
+    }
+}
