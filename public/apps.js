@@ -82,3 +82,11 @@ function carregarDetalhesFilme() {
         detalhesContainer.innerHTML = '<p>Filme não encontrado.</p>';
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (document.getElementById('filmes-container')) {
+        carregarFilmes();
+    } else if (document.getElementById('detalhes-filme')) {
+        carregarDetalhesFilme();
+    }
+});
