@@ -26,4 +26,12 @@ const filmes = [
         descricaoCurta: "Não tem descrição curta adequada pra esse filme.",
         descricaoLonga: "É com certeza o mais viajado da lista, e chega a ser difícil descrevê-lo porque não é um filme que funciona bem por conta própria, é meio que necessário que você tenha assistido o anime antes, mas, em suma, é o final oficial de Neon Genesis Evangelion, é onde nós acompanhamos a destruição da NerV e o projeto de instrumentalização humana em si. É talvez o filme mais angustiante e mais comtemplativo que eu já vi, é muito bom mesmo; a cena da Asuka sendo morta merece ser assistida por todo mundo pelo menos uma vez na vida."
     },
-    
+    {
+        id: 4,
+        titulo: "La Haine",
+        imagem: "https://upload.wikimedia.org/wikipedia/pt/8/8b/LA_HAINE.jpeg",
+        autor: "Mathieu Kassovitz",
+        ano: "1 de dezembro de 1995 (no Brasil)",
+        descricaoCurta: "Um dia na vida de um trio de amigos no meio de tensões políticas em Paris."
+        descricaoLonga: "É um dos filmes mais legais que eu já vi, legal no sentido literal da palavra. É um filme muito bem filmado, que utiliza enquadramentos muito interessantes, que tem um roteiro muito bom, atuações muito boas... é um filme muito bom no geral. A relação dos três personagens e o entorno deles é muito bem feita também, você sente o ódio dos personagens e sente a tensão ao redor deles."
+    }
