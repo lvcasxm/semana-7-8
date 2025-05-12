@@ -7,4 +7,14 @@ const filmes = [
         ano: "14 de maio de 1993 (no Brasil)",
         descricaoCurta: "Prequela dos acontecimentos da série Twin Peaks.",
         descricaoLonga: "Acompanhamos aqui os últimos dias de Laura Palmer e sua eventual morte. É um filme visceral que destrincha todos os aspectos da vida da personagem; seu namoro conturbado, seu caso com um colega de escola, o abuso sofrido em casa, o consumo de drogas, e a prostituição.",
-   
+    },
+    {
+        id: 2,
+        titulo: "The Blair Witch Project",
+        imagem: "https://m.media-amazon.com/images/M/MV5BNGFmYzA5NzktOTc1Ni00YTIxLWJiZTEtNmEyZjBjNDM2MjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        autor: "Eduardo Sánchez e Daniel Myrick",
+        ano: "1 de outubro de 1999 (no Brasil)",
+        descricaoCurta: "Um trio vai acampar numa floresta amaldiçoada para descobrir a verdade sobre uma lenda local."
+        descricaoLonga: "Os filmes de terror e, principalmente, os filmes found footage, não seriam os mesmos sem esse filme. É sensacional, e eu nem gosto de filmes de terror, então posso atestar que esse é bom de verdade. Vejo pessoas dizendo que ele não é tão ""assustador"", no sentido literal da palavra, e devo dizer que concordo, mas não significa que o filme não dê medo, ele dá, e muito, só que a forma como o medo é construído aqui é muito diferente dos filmes de terror atuais... não tem jumpscare, é pura atmosfera, puro caos, pura incerteza. É como se esse filme fosse a personificação cinematográfica de uma música de black metal. "
+    },
+
