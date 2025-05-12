@@ -2,7 +2,7 @@ const filmes = [
     {
         id: 1,
         titulo: "Twin Peaks: Fire Walk with Me",
-        imagem: "https://m.media-amazon.com/images/M/MV5BYzJmZGFiMzAtODNhOC00NzAwLWFlMzAtYTQzYmRmYjIwNDgyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        imagem: "images\firewalkwithme.jpg",
         autor: "Dirigido por David Lynch e co-escrito por Robert Engels",
         ano: "14 de maio de 1993 (no Brasil)",
         descricaoCurta: "Prequela dos acontecimentos da série Twin Peaks.",
@@ -11,7 +11,7 @@ const filmes = [
     {
         id: 2,
         titulo: "The Blair Witch Project",
-        imagem: "https://m.media-amazon.com/images/M/MV5BNGFmYzA5NzktOTc1Ni00YTIxLWJiZTEtNmEyZjBjNDM2MjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        imagem: "images\blairwitch.jpg",
         autor: "Eduardo Sánchez e Daniel Myrick",
         ano: "1 de outubro de 1999 (no Brasil)",
         descricaoCurta: "Um trio vai acampar numa floresta amaldiçoada para descobrir a verdade sobre uma lenda local.",
@@ -20,7 +20,7 @@ const filmes = [
     {
         id: 3,
         titulo: "The End of Evangelion",
-        imagem: "https://preview.redd.it/i29iqscbs2d41.jpg?auto=webp&s=f6f950699a96d4b08310368cf70f407492c74176",
+        imagem: "images\endofevangelion.jpg",
         autor: "Hideaki Anno e Kazuya Tsurumaki",
         ano: "19 de julho de 1993 (no Japão)",
         descricaoCurta: "Não tem descrição curta adequada pra esse filme.",
@@ -29,7 +29,7 @@ const filmes = [
     {
         id: 4,
         titulo: "La Haine",
-        imagem: "https://upload.wikimedia.org/wikipedia/pt/8/8b/LA_HAINE.jpeg",
+        imagem: "images\blairwitch.jpg",
         autor: "Mathieu Kassovitz",
         ano: "1 de dezembro de 1995 (no Brasil)",
         descricaoCurta: "Um dia na vida de um trio de amigos no meio de tensões políticas em Paris.",
