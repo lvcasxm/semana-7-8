@@ -35,3 +35,28 @@ const filmes = [
         descricaoCurta: "Um dia na vida de um trio de amigos no meio de tensões políticas em Paris."
         descricaoLonga: "É um dos filmes mais legais que eu já vi, legal no sentido literal da palavra. É um filme muito bem filmado, que utiliza enquadramentos muito interessantes, que tem um roteiro muito bom, atuações muito boas... é um filme muito bom no geral. A relação dos três personagens e o entorno deles é muito bem feita também, você sente o ódio dos personagens e sente a tensão ao redor deles."
     }
+];
+
+function carregarFilmes() {
+    const filmesContainer = document.getElementById('filmes-container');
+    
+    if (filmesContainer) {
+        filmes.forEach(filme => {
+            const filmeCard = document.createElement('div');
+            filmeCard.className = 'filme-card';
+            
+            filmeCard.innerHTML = `
+                <a href="detalhes.html?id=${filme.id}">
+                    <img src="${filme.imagem}" alt="${filme.titulo}">
+                    <h3>${filme.titulo}</h3>
+                    <p>${filme.descricaoCurta}</p>
+                    <p><strong>Diretor:</strong> ${filme.autor}</p>
+                    <p><strong>Ano:</strong> ${filme.ano}</p>
+                </a>
+            `;
+            
+            filmesContainer.appendChild(filmeCard);
+        });
+    }
+}
+
