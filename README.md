@@ -1,5 +1,5 @@
-# semana-7-8
-Repositório referente às semanas 7 e 8 de DIW
+# trabalho-prático-01
+Repositório referente ao "Trabalho Prático 1 - Exibição e navegação dinâmicas" de DIW
 
 ## Informações Gerais
 
